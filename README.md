@@ -3,6 +3,7 @@
 
 ```js
 const conn = new net.Socket()
+// httpbin.org or ip address
 conn.connect(80, '54.152.127.232', function () {
   console.log("connection created");
 })
